@@ -100,7 +100,7 @@ NB: Make sure that you have successfully setup and run all necessary dependencie
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Making use of javascript classes]**
-- [ ] **[Making API calls]**
+- [x] **[Making API calls]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
