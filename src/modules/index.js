@@ -80,11 +80,10 @@ sumbitButton.addEventListener('click', async (e) => {
 refreshButton.addEventListener('click', () => refresh());
 
 // Initializes the application
-const initialize = () => {
+const initialize = async () => {
   form.reset();
-  createGame();
-  refresh();
+  await createGame();
+  await refresh();
 };
 
-// Starts instance
-initialize();
+document.addEventListener('DOMContentLoaded', () => initialize());
