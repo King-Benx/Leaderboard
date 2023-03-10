@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      margin-inline-start: 1rem;
+    }
+
+    .container-section {
+      div {
+        h2 {
+          display: inline-block;
+        }
+      }
+    }
+
+    form {
+      .form-group {
+        margin-block: 1rem;
+      }
+
+      button {
+        float: right;
+      }
+    }
+
+    table {
+      border: 1px solid black;
+      width: 100%;
+      padding: 0;
+
+      tr:nth-child(even) {
+        background-color: silver;
+      }
+    }
+  }
+}
