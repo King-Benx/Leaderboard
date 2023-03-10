@@ -36,7 +36,7 @@ This project is leaderboard project that takes a users name and score and displa
 
 ## 🚀 VISIT SITE <a name="website"></a>
 
-<a name="<https://king-benx.github.io/todo-list-es6/>">https://king-benx.github.io/todo-list-es6/</a>
+<a name="<https://king-benx.github.io/Leaderboard/>">https://king-benx.github.io/Leaderboard/</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,8 +75,8 @@ In order to run this project you need:
 
 ### Setup
 
-1. Clone this repository to your desired folder: ```git clone git@github.com:King-Benx/todo-list-es6.git```
-2. Checkout to the root directory ```cd todo-list-es6.git```
+1. Clone this repository to your desired folder: ```git clone git@github.com:King-Benx/Leaderboard.git```
+2. Checkout to the root directory ```cd Leaderboard```
 3. Install dependencies ```npm i```
 4. To run ```npm run dev```
 
@@ -101,9 +101,9 @@ NB: Make sure that you have successfully setup and run all necessary dependencie
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Making use of javascript classes]**
+- [ ] **[Making API calls]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +121,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project buy us coffee.
 
@@ -134,10 +133,6 @@ If you like this project buy us coffee.
 I would like to thank the Microverse learning resources for all the helpful information rendered in completion of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
