@@ -736,16 +736,32 @@ refreshButton.addEventListener('click', function () {
 });
 
 // Initializes the application
-var initialize = function initialize() {
-  form.reset();
-  createGame();
-  refresh();
-};
-
-// Starts instance
-initialize();
+var initialize = /*#__PURE__*/function () {
+  var _ref4 = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee4() {
+    return _regeneratorRuntime().wrap(function _callee4$(_context4) {
+      while (1) switch (_context4.prev = _context4.next) {
+        case 0:
+          form.reset();
+          _context4.next = 3;
+          return createGame();
+        case 3:
+          _context4.next = 5;
+          return refresh();
+        case 5:
+        case "end":
+          return _context4.stop();
+      }
+    }, _callee4);
+  }));
+  return function initialize() {
+    return _ref4.apply(this, arguments);
+  };
+}();
+document.addEventListener('DOMContentLoaded', function () {
+  return initialize();
+});
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle5e4d52bf2e0b5c56d0b7.js.map
+//# sourceMappingURL=bundle3090deb32c70b869ec71.js.map
