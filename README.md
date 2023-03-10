@@ -89,8 +89,6 @@ NB: Make sure that you have successfully setup and run all necessary dependencie
 
 ## 👥 Author <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Benard Asiimwe**
 
 - GitHub: [@King-Benx](https://github.com/King-Benx)
