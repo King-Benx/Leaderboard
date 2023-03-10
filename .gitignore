@@ -1,0 +1,8 @@
+node_modules
+coverage
+.idea
+*.DS_Store*
+dump.rdb_modules
+.vscode
+dump.rdb
+package-lock.json 
