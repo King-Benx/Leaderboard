@@ -1,12 +1,11 @@
 body {
-  width: 100%;
-
   .container {
-    display: flex;
-    justify-content: space-around;
+    padding: 1rem;
 
     button {
       margin-inline-start: 1rem;
+      padding: 0.35rem;
+      cursor: pointer;
     }
 
     .container-section {
@@ -20,9 +19,15 @@ body {
     form {
       .form-group {
         margin-block: 1rem;
+
+        input {
+          width: 100%;
+          padding-block: 0.4rem;
+        }
       }
 
       button {
+        margin-inline-start: 0;
         float: right;
       }
     }
@@ -35,6 +40,11 @@ body {
       tr:nth-child(even) {
         background-color: silver;
       }
+    }
+
+    @media only screen and (width > 768px) {
+      display: flex;
+      justify-content: space-around;
     }
   }
 }
